@@ -67,7 +67,7 @@ services:
     restart: unless-stopped
 
   notes-app:
-    image: notes-app:latest
+    image: notes-app: latest
     build:
       context: ./notes-app
       dockerfile: Dockerfile
